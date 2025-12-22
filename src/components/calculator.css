@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.calc-btn {
+  @apply h-14 rounded-md border border-blue-300 font-semibold flex items-center justify-center shadow-sm;
+}
+.number {
+  @apply bg-blue-100 text-blue-700 text-xl hover:bg-blue-200;
+}
+.operator {
+  @apply bg-blue-700 text-blue-100 hover:bg-blue-800;
+}
+.equals {
+  @apply bg-indigo-700 text-blue-100 text-2xl hover:bg-indigo-800;
+}
+.clear {
+  @apply bg-red-500 text-blue-100 text-xl hover:bg-red-600;
+}
