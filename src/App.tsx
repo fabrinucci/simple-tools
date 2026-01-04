@@ -1,4 +1,4 @@
-import { HomeRouter } from "./router/HomeRouter";
+import { HomeRouter } from './router/HomeRouter';
 
 function App() {
   return <HomeRouter />;

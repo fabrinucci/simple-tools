@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 .calc-btn {
   @apply h-14 rounded-md border border-blue-300 font-semibold flex items-center justify-center shadow-sm;
